@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +39,37 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+div {
+  background-color: #aebbc7;
+  border-radius: 5px;
 }
+
+card {
+  background-color: #aebbc7;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0; /* Optional: Remove left padding */
+  margin-left: 0;  /* Optional: Remove left margin */
+}
+
+.default-text {
+  color: #343a40; /* Dark grey text */
+  font-family: Arial, sans-serif;
+}
+
+.default-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.default-btn:hover {
+  color: #000000;
+}
+
+

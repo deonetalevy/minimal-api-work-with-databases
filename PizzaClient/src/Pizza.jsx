@@ -60,16 +60,18 @@ function Pizza() {
 
 
   return (
-    <div>
-      <PizzaList
-        name={term}
-        data={data}
-        error={error}
-        onCreate={handleCreate}
-        onUpdate={handleUpdate}
-        onDelete={handleDelete}
-      />
-    </div>
+    <body>
+      <div>
+        <PizzaList
+          name={term}
+          data={data}
+          error={error}
+          onCreate={handleCreate}
+          onUpdate={handleUpdate}
+          onDelete={handleDelete}
+        />
+      </div>
+    </body>  
   );
 }
 
